@@ -1,13 +1,12 @@
-import Navbar from './Components/Navbar'
+import Navbar from "./Components/Navbar";
 
 function App() {
-
-
   return (
     <>
-     <Navbar/>
+      <Navbar />
+      <div className="bg-indigo-800 w-full h-screen"></div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
